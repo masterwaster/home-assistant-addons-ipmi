@@ -25,7 +25,7 @@ RUN \
     apk -U upgrade && \
     apk -U add --no-cache \
         ipmitool \
-        nginx=1.24.0-r6 \
+        nginx=1.24.0-r7 \
         php$PHPVERS \
         php$PHPVERS-fpm \
         php$PHPVERS-curl \
